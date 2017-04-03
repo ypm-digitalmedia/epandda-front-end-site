@@ -52,7 +52,12 @@
   "bugs": {
     "url": "https://github.com/matthewhartman/base/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-less": "^3.3.8",
+    "fontawesome": "^4.7.2",
+    "gulp-include": "^2.3.1"
+  },
   "description": "A Rock Solid, Responsive HTML/CSS Framework built to work on all devices big and small.",
   "devDependencies": {
     "browser-sync": "^2.18.8",
