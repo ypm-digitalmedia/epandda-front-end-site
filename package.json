@@ -56,7 +56,8 @@
     "bootstrap": "^3.3.7",
     "bootstrap-less": "^3.3.8",
     "fontawesome": "^4.7.2",
-    "gulp-include": "^2.3.1"
+    "gulp-include": "^2.3.1",
+    "slick-browserify-js": "^1.6.1"
   },
   "description": "A Rock Solid, Responsive HTML/CSS Framework built to work on all devices big and small.",
   "devDependencies": {
@@ -79,6 +80,7 @@
     "path": "^0.12.7",
     "run-sequence": "^1.1.5",
     "slick": "^1.12.2",
+    "slick-browserify-js": "^1.6.1",
     "vex-js": "^3.1.0"
   },
   "directories": {},

@@ -1,34 +1,45 @@
-@OpenSansCondensedPath: "./fonts";
-@KenyanCoffeePath: "./fonts";
+@fontPath: "./fonts";
 
 /* OPEN SANS CONDENSED */
 
 /* REGULAR */
 @font-face {
   font-family: 'Open Sans Condensed';
-  src: url('@{OpenSansCondensedPath}/OpenSans-CondLight.ttf') format('truetype');
-  font-weight: normal;
+  src: url('@{fontPath}/OpenSans-CondLight.ttf') format('truetype');
+  font-weight: 100!important;
   font-style: normal;
 }
 
-/* BOLD */
+// /* BOLD */
+// @font-face {
+//   font-family: 'Open Sans Condensed';
+//   src: url('@{fontPath}/OpenSans-CondBold.ttf') format('truetype');
+//   font-weight: bold;
+//   font-style: normal;
+// }
+
+// /* ITALIC */
+// @font-face {
+//   font-family: 'Open Sans Condensed';
+//   src: url('@{fontPath}/OpenSans-CondLightItalic.ttf') format('truetype');
+//   font-weight: normal;
+//   font-style: italic;;
+// }
+
+
+
+/* EXO CONDENSED */
 @font-face {
-  font-family: 'Open Sans Condensed';
-  src: url('@{OpenSansCondensedPath}/OpenSans-CondBold.ttf') format('truetype');
-  font-weight: bold;
+  font-family: 'Exo Thin Condensed';
+  src: url('@{fontPath}/Exo2-ThinCondensed.eot');
+  src: url('@{fontPath}/Exo2-ThinCondensed.woff2') format('woff2'),
+       url('@{fontPath}/Exo2-ThinCondensed.woff') format('woff'),
+       url('@{fontPath}/Exo2-ThinCondensed.ttf') format('truetype'),
+       url('@{fontPath}/Exo2-ThinCondensed.svg#Exo2-ThinCondensed') format('svg'),
+       url('@{fontPath}/Exo2-ThinCondensed.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
   font-style: normal;
 }
-
-/* ITALIC */
-@font-face {
-  font-family: 'Open Sans Condensed';
-  src: url('@{OpenSansCondensedPath}/OpenSans-CondLightItalic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;;
-}
-
-
-
 
 
 
@@ -39,31 +50,31 @@
 /* REGULAR */
 @font-face {
   font-family: 'Kenyan Coffee';
-  src: url('@{KenyanCoffeePath}/kenyan-coffee-rg.ttf') format('truetype');
+  src: url('@{fontPath}/kenyan-coffee-rg.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
-/* ITALIC */
-@font-face {
-  font-family: 'Kenyan Coffee';
-  src: url('@{KenyanCoffeePath}/kenyan-coffee-rg-it.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
+// /* ITALIC */
+// @font-face {
+//   font-family: 'Kenyan Coffee';
+//   src: url('@{fontPath}/kenyan-coffee-rg-it.ttf') format('truetype');
+//   font-weight: normal;
+//   font-style: italic;
+// }
 
-/* BOLD */
-@font-face {
-  font-family: 'Kenyan Coffee';
-  src: url('@{KenyanCoffeePath}/kenyan-coffee-bd.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
+// /* BOLD */
+// @font-face {
+//   font-family: 'Kenyan Coffee';
+//   src: url('@{fontPath}/kenyan-coffee-bd.ttf') format('truetype');
+//   font-weight: bold;
+//   font-style: normal;
+// }
 
-/* BOLD ITALIC */
-@font-face {
-  font-family: 'Kenyan Coffee';
-  src: url('@{KenyanCoffeePath}/kenyan-coffee-bd-it.ttf') format('truetype');
-  font-weight: bold;
-  font-style: italic;
-}
+// /* BOLD ITALIC */
+// @font-face {
+//   font-family: 'Kenyan Coffee';
+//   src: url('@{fontPath}/kenyan-coffee-bd-it.ttf') format('truetype');
+//   font-weight: bold;
+//   font-style: italic;
+// }

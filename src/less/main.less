@@ -1,18 +1,36 @@
 body,
 html {
     background-color: #e1e1e1;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    // font-family: "Open Sans Condensed";
+    // width: 100%;
+    // height: 100%;
+    // padding: 0;
+    // margin: 0;
 }
 
 .content {
-    background-color: white;
     -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.35);
     -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.35);
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.35);
-    min-height: 100vh;
+    // min-height: 100vh;
+    margin-top: 80px;
+    background-color: white;
+}
+
+section {
+    background-color: white;
+    padding: 50px 0;
+}
+
+section p {
+    line-height: 2rem;
+    text-align: center;
+}
+
+footer {
+    margin-top: 70px;
 }
 
 @green-dark: #009345;
@@ -20,33 +38,68 @@ html {
 @green-yellow: #d6de23;
 
 .colorbars-top {
-    width: 100%;
+    // width: 100%;
     height: 15px;
     background-color: @green-dark;
 }
 
 .colorbars-middle {
-    width: 100%;
+    // width: 100%;
     height: 10px;
     background-color: @green-yellow;
 }
 
 .colorbars-bottom {
-    width: 100%;
-    height: 10px;
-    background-color: @green-mid;
-    min-height: 30px;
+    // width: 100%;
+    // height: 10px;
+    // background-color: @green-mid;
 }
 
 .colorbars {
-    margin: 0 -15px;
+    margin: 0 -30px;
+}
+
+footer .colorbars-middle, footer .colorbars-top {
+    width: 99%;
+    float: right;
 }
 
 .colorbars-content {
-    padding: 15px;
+    // padding: 0 15px;
+    height: 100%;
 }
 
+.nav-button {
+    text-align: center;
+    background-color: @green-mid;
+    color: black;
+    display: block;
+}
 
+.copyright {
+    // background-color: @green-mid;
+    font-size: 0.7em;
+}
+
+.footer-logo {
+    margin-top: -60px;
+    position: relative;
+    z-index: 300;
+}
+
+.nav-logo {
+    display: block;
+    background-color: @green-mid;
+    padding-left: 0;
+}
+
+.nav-button:hover {
+    background-color: @green-dark;
+    color: white;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
 
 h1, h2, h3, h4, h5, h6, strong {
     font-family: "Kenyan Coffee";
@@ -54,45 +107,63 @@ h1, h2, h3, h4, h5, h6, strong {
     font-style: normal;
 }
 
+a.big:link, a.big:visited {
+    text-decoration: none;
+    color: black;
+}
 
-// .demo1 {
-//     font-family: "Open Sans Condensed";
-//     font-weight: normal;
-//     font-style: normal;
-// }
+a.big:active, a.big:hover {
+    text-decoration: none;
+    color: white!important;
+}
 
-// .demo2 {
-//     font-family: "Open Sans Condensed";
-//     font-weight: normal;
-//     font-style: italic;
-// }
+.home-page-header {
+    height: 261px;
+    background: url("../img/header_bg.png");
+    background-repeat: repeat-x;
+    margin: 0 -15px;
+}
 
-// .demo3 {
-//     font-family: "Open Sans Condensed";
-//     font-weight: bold;
-//     font-style: normal;
-// }
+.top-logo {
+    margin-top: -70px;
+}
 
-// .demo4 {
-//     font-family: "Kenyan Coffee";
-//     font-weight: normal;
-//     font-style: normal;
-// }
+.top-slogan {
+    text-align: center;
+    margin-top: -30px;
+}
 
-// .demo5 {
-//     font-family: "Kenyan Coffee";
-//     font-weight: normal;
-//     font-style: italic;
-// }
+.big-footer-text {
+    float: right;
+}
 
-// .demo6 {
-//     font-family: "Kenyan Coffee";
-//     font-weight: bold;
-//     font-style: normal;
-// }
+.big-footer-text h1 {
+    color: @green-dark;
+    float: right;
+}
 
-// .demo7 {
-//     font-family: "Kenyan Coffee";
-//     font-weight: bold;
-//     font-style: italic;
-// }
+section a, strong {
+    font-size: 1.1em;
+    font-family: "Kenyan Coffee";
+    font-weight: normal;
+    font-style: normal;
+}
+
+section a:link, section a:visited {
+    color: @green-dark;
+    text-decoration: underline;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+section a:hover, section a:active {
+    color: @green-mid;
+    text-decoration: none;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+button.slick-prev, button.slick-next {
+    display: none;
+}
