@@ -70,7 +70,7 @@ svg:not(:root) {
   overflow: hidden;
 }
 body {
-  font-family: "Exo Thin Condensed", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 22px;
@@ -4369,7 +4369,6 @@ a.big:hover {
 }
 section a,
 strong {
-  font-size: 1.2em;
   font-family: "Kenyan Coffee";
   font-weight: normal;
   font-style: normal;
@@ -4390,7 +4389,7 @@ section a:active {
   transition: 0.3s all ease-in-out;
 }
 .status {
-  font-size: 0.7em;
+  font-size: 0.8em;
   float: right;
   text-align: right;
   padding-top: 1em;
@@ -4429,7 +4428,7 @@ section a:active {
   background-color: #8bc53f;
 }
 .copyright {
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 .footer-logo {
   margin-top: -60px;
